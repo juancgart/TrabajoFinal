@@ -1,0 +1,246 @@
+/* @media (min-width:560px){
+    .terapia-img{
+        width: 100%;
+    }
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+@media (max-width:990px){
+
+    .section-servicios{
+            
+            height: 100%;
+            background-size: cover;
+        }
+
+    .section-contacto{
+            
+            height: 100%;
+            background-size: cover;
+        }
+}
+
+@media (min-width:990px){
+
+    .section-servicios{
+            
+            height: 800px;
+            
+        }
+
+    .section-contacto{
+            
+            height: 800px;
+            
+        }
+}
+
+
+@media (max-width:1160px){
+    .div-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+}
+
+@media (min-width:1801px){
+
+    .carousel-img {
+        width: 100%;
+        height: 760px;  
+        
+        }
+}
+
+@media (max-width:1800px){
+
+    .carousel-img {
+        
+        width: 1800px; 
+        height: 760px;  
+        
+        }
+}
+
+@media (max-width: 380px){
+        .carousel-text-primary{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;   
+        }
+    }
+
+
+@media (min-width: 381px) and (max-width:680px){
+        .carousel-text-primary{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;   
+        }
+    }
+
+@media (min-width:681px){
+        .carousel-text-primary{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;   
+        }
+    }
+
+
+
+
+
+/* div {
+    border: 1px solid rgb(164, 19, 128);
+} */
+
+
+
+.carousel-text{
+    font-size: 30px; 
+    
+}
+
+
+.section{
+    text-align: center; 
+    background-color: rgba(20, 20, 20, 0.8);
+    color: #ffffff;
+}
+
+.section > h2{
+    font-size: 50px;
+}
+
+.section-servicios{
+    text-align: center; 
+    background-image: url('../media/Servicios_BG.jpg');
+    color: #ffffff;
+    
+}
+
+.section-servicios > h2{
+    font-size: 50px;
+}
+
+.section-contacto{
+    text-align: center; 
+    background-image: url('../media/Contacto_BG_1800x1000.jpg');
+    color: #ffffff;
+    
+}
+
+.section-contacto > h2{
+    font-size: 50px;
+}
+
+.section-terapia > h2{
+    font-size: 50px;
+}
+
+.marginCard{
+    
+    margin: 15px 0;
+
+}
+
+.card-tarifas{
+    
+    margin: 15px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.card-tarifas > div {
+    width: 350px;
+    height: 450px;
+    background-color: #caf0c8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px 5px #0505052d;
+}
+
+.card-tarifas > div > h2 {
+   font-size: 50px;
+}
+
+/* .pasos{
+    text-align: center;
+} */
+
+.tarifas{
+    text-align: center;
+}
+
+/* #Servicios{
+    background-image: url('../media/Servicios_BG.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+   
+} */
+
+/* .div-center {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    } */
+
+
+
+/* .carousel-text-primary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    
+} */
+
+/* .btn-purple{
+  background-color: #2eae2e ;
+    
+} */
+
+
+/* main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+} */
+
+/* main > div {
+    width: 300px;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: center;
+} */
+/* .clase1{
+    color: green;
+}
+
+.clase2{
+    color: red;
+}
+
+.clase3{
+    color: yellow !important;
+}
+
+.clase4{
+    color: blue !important;
+} */
+
+/* .clase5{
+    color:aqua !important
+} */
