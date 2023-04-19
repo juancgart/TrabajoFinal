@@ -1,0 +1,54 @@
+
+		body {
+            background-image: url('../media/Spok_1585x800_0p20.jpg');
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.integrante {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			margin-bottom: 20px;
+			max-width: 1000px;
+			width: 100%;
+		}
+
+		.integrante img {
+			max-width: 200px;
+			height: auto;
+			margin: 20px;
+		}
+
+		.integrante .descripcion {
+			flex: 1;
+			margin: 0;
+		}
+
+		@media (max-width: 768px) {
+			.integrante {
+				flex-direction: column;
+				text-align: center;
+			}
+
+			.integrante img {
+				max-width: 50%;
+				min-width: 300px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+		}
+
+		/* @media (max-width: 500px) {
+			.integrante {
+				flex-direction: column;
+				text-align: center;
+			}
+
+			.integrante img {
+				max-width: 50%;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+		} */
