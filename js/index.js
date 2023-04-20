@@ -27,3 +27,5 @@ window.addEventListener("scroll", function() {
     navbar.style.transition = "none";
   }
 });
+
+

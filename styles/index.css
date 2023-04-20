@@ -11,6 +11,8 @@
 }
 
 @media (max-width:990px){
+    
+    
 
     .section-servicios{
             
@@ -23,9 +25,15 @@
             height: 100%;
             background-size: cover;
         }
+
+    .formulario {
+            width: 90%;
+            }
 }
 
 @media (min-width:990px){
+    
+    
 
     .section-servicios{
             
@@ -38,6 +46,10 @@
             height: 800px;
             
         }
+        
+    .formulario {
+            width: 50%;
+            }
 }
 
 
@@ -77,10 +89,10 @@
     }
 
 
-@media (min-width: 381px) and (max-width:680px){
-        .carousel-text-primary{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 40px;   
+@media (max-width:350px){
+        .section-footer{
+        
+        font-size: 14px;   
         }
     }
 
@@ -91,7 +103,12 @@
         }
     }
 
-
+@media (min-width: 381px) and (max-width:680px){
+        .carousel-text-primary{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;   
+        }
+    }
 
 
 
@@ -129,6 +146,7 @@
 }
 
 .section-contacto{
+    justify-content: center;
     text-align: center; 
     background-image: url('../media/Contacto_BG_1800x1000.jpg');
     color: #ffffff;
@@ -181,6 +199,12 @@
 .tarifas{
     text-align: center;
 }
+
+.div-centrar-contenido{
+    justify-content: center;
+}
+
+
 
 /* #Servicios{
     background-image: url('../media/Servicios_BG.jpg');
